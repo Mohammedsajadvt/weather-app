@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:weather/weather.dart';
 import 'package:weatherapp/bloc/weather_bloc_bloc.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -79,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 300,
                   decoration: const BoxDecoration(
-                      shape: BoxShape.circle, color: Color(0xFF673AB7)),
+                      shape: BoxShape.circle, color: Color(0xff255BAC)),
                 ),
               ),
               Align(
@@ -88,15 +87,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 300,
                   decoration: const BoxDecoration(
-                      shape: BoxShape.circle, color: Color(0xFF673AB7)),
+                      shape: BoxShape.circle, color: Color(0xff255BAC)),
                 ),
               ),
               Align(
                 alignment: const AlignmentDirectional(0, -1.2),
                 child: Container(
-                  height: 300,
+                  height: 300, 
                   width: 600,
-                  decoration: const BoxDecoration(color: Color(0xFFFFAB40)),
+                  decoration: const BoxDecoration(color: Color(0xff112039)),
                 ),
               ),
               BackdropFilter(
